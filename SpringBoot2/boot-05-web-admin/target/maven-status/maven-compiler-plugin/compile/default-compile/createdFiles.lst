@@ -1,0 +1,6 @@
+com\boctech\admin\interceptor\LoginInterceptor.class
+com\boctech\admin\controller\IndexController.class
+com\boctech\admin\config\AdminWebConfig.class
+com\boctech\admin\Boot05WebAdminApplication.class
+com\boctech\admin\controller\TableController.class
+com\boctech\admin\bean\User.class

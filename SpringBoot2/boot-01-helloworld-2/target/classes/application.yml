@@ -1,0 +1,28 @@
+person:
+  userName: dahai
+  boss: true
+  birth: 2021/11/03
+  age: 25
+  interests:
+    - 篮球
+    - 足球
+  animal: [阿猫，阿狗]
+  score: {english: 88,math: 90}
+  salary:
+    - 11992
+    - 11250
+  pet:
+    name: 阿狗
+    weight: 99.5
+  allPets:
+    sick:
+      - {name: 阿狗, weight: 99.6}
+      - name: 阿猫
+        weight: 88.5
+      - name: 阿虫
+        weight: 55.3
+    health:
+      - {name: 阿花, weight: 199.6}
+      - {name: 阿明, weight: 159.6}
+
+

@@ -1,0 +1,22 @@
+
+#  mvc:
+#    static-path-pattern: /res/**
+##
+#spring:
+#  web:
+#    resources:
+#      static-locations: [classpath:/haha/]
+spring:
+  web:
+    resources:
+      static-locations: [classpath:/haha/]
+      add-mappings: true
+#      add-mappings: false   禁用所有静态资源
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+server:
+  servlet:
+    context-path: /world

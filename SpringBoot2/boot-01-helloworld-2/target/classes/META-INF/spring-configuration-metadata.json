@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.boctech.boot.bean.Person",
+      "sourceType": "com.boctech.boot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.boctech.boot.bean.Pet>>",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.boctech.boot.bean.Pet",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.salary",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.boctech.boot.bean.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.boctech.boot.bean.Person"
+    }
+  ],
+  "hints": []
+}

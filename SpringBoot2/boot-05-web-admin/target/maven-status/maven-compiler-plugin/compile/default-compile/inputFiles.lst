@@ -1,0 +1,6 @@
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\Boot05WebAdminApplication.java
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\config\AdminWebConfig.java
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\controller\IndexController.java
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\bean\User.java
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\interceptor\LoginInterceptor.java
+D:\PostGradute\Java\CODE\SpringBoot2\boot-05-web-admin\src\main\java\com\boctech\admin\controller\TableController.java

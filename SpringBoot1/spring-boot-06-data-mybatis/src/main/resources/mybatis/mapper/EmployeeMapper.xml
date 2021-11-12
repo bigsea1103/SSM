@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boctech.springboot.mapper.EmployeeMapper">
+
+    <select id="getDeptById" resultType="com.boctech.springboot.bean.Employee">
+        SELECT * from employee where id=#{id}
+    </select>
+
+    <insert id="insertDept">
+        INSERT INTO employee(lastName,email,gender,d_id) VALUES (#{lastName},#{email},#{gender},#{dId})
+    </insert>
+
+</mapper>

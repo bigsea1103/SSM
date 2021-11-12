@@ -1,0 +1,53 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_account   #连接自己的数据库
+    username: root
+    password: root
+ #   type: com.zaxxer.hikari.HikariDataSource   #默认的数据源，可以不写
+    driver-class-name: com.mysql.jdbc.Driver
+
+    druid:
+      aop-patterns: com.boctech.boot.*  #监控springBean
+      filters: stat,wall   #底层开启功能  stat sql监控   wall  防火墙
+      filter:    #对上面filters里面的stat的详细配置
+        stat:
+          slow-sql-millis: 1000  #慢查询时间
+          log-slow-sql: true
+          enabled: true
+        wall:
+          enabled: true
+          config:
+            drop-table-allow: false
+      stat-view-servlet:   #监控页配置
+        enabled: true
+        login-username: admin
+        login-password: 123456
+        reset-enable: false
+      web-stat-filter:    #web监控配置
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.png,*.css,*.ico,/druid/*'
+
+  jdbc:
+    template:
+      query-timeout: 3
+
+server:
+  port: 8088
+
+##配置mybatis规则
+mybatis:
+  #config-location: classpath:mybatis/mybatis-config.xml  #全局配置文件
+  mapper-locations: classpath:mybatis/mapper/*.xml   #sql映射配置文件
+  configuration:   #开启驼峰命名   这里指定mybatis全局配置文件
+    map-underscore-to-camel-case: true
+
+
